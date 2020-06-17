@@ -1,0 +1,27 @@
+var count = 0;
+
+function cc(card) {
+  // Only change code below this line
+  switch (card) {
+    case 2: case 3: case 4: case 5: case 6:
+    count++; break;
+    case 10: case 'J': case 'Q': case 'K': case 'A':
+    count--; break;
+  }
+  if (count <= 0) {
+    return count + " " + "Hold";
+  } else {
+    return count + " " + "Bet";
+}
+  return "Change Me";
+  // Only change code above this line
+}
+cc(3); cc(2); cc('A'); cc(10); cc('K');
+console.log (cc()); //  Solicita a execução da função cc() e apresenta o resultado na tela de resultados.
+
+// O código é lido de cima para baixo, mas só irá emitir uma informação quando for solicitado em "console.log (cc();"
+// Antes disso ocorre uma execução a cada "cc (valor)";
+// O "console.log  (cc())" só é executado após todos os "cc(valor)"
+// A cada "cc(valor)" a função é executada usando o valor passado.
+// O returno sempre renova a mensagem count + " " + "string"
+// Ao final, se o contador for maior ou menor que Zero, a mensagem mais atualizada e mostrada quando executado console.log.
