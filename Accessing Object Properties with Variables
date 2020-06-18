@@ -1,0 +1,17 @@
+// Setup
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line
+
+var playerNumber = 16;       // Change this line
+var player = testObj[playerNumber];   // Change this line
+
+console.log(player);
+
+//A varivável "playerNumber" recebe o valor "16", sem nenhuma ligação direta com o objeto de nome "16" dentro da variável "testObj".
+//A variável "player" acessa o valor "Montana" do objeto "16 = "playerNumber" dentro da variável "testObj".
+//Por fim, console.log lê a variável "player" que leu o objeto antes.
