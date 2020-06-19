@@ -1,3 +1,8 @@
+//Código para contar cartas BlackJack
+//Uma função renova o contador dependendo das grandezas de 5 cartas simultaneamente.
+//Dependendo do valor do contador, é solicitado para apostar ou segurar.
+//Código faz uso de:  FUNÇÃO, SWITCH, IF-ELSE, RETURN, CHAMADA DA FUNÇÃO e CONSOLE.LOG.
+
 var count = 0;
 
 function cc(card) {
