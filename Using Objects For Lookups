@@ -1,0 +1,21 @@
+// Código para encontrar o valor de um objeto específico dentro de uma lista de objetos, que por sua vez, está dentro de uma variável.
+// Temos aqui então a seguinte ordem de armazenamento de informações:
+// Função abriga variável que abriga objetos que abriga valores finais.
+
+// Setup
+function phoneticLookup(val) {
+  var result = ""; // Result deve ser inicializada
+
+  // Only change code below this line
+  var lookup = {alpha: "Adams", bravo: "Boston", charlie: "Chicago", delta: "Denver", echo: "Easy", foxtrot: "Frank"};
+  result  = lookup[val];
+  // Only change code above this line
+  return result;
+}
+console.log(phoneticLookup("charlie"));
+
+// Envia argumento "charlie" para valorizar "val"  que é o nome de um objeto dentro da variável "lookup".
+// Quem permite realizar a troca é a função "phoneticLookup".
+// console.log solicita a impressão de uma informação dentro da função, neste caso "result".
+// "result", por sua vez, é o nome do objeto enviado "charlie", mas é mostrado o valor desse objeto, "Chicago" e não o nome do objeto.
+// Valores são mostrados quando solicitado pelo nome de variáveis e objetos.
