@@ -1,3 +1,6 @@
+// Código para acessar o valor de um objeto dentro de uma variável usando  pesquisa  indireta, ou seja, enviamos o nome de  uma variável independente que possui o mesmo nome do objeto, o resultado da pesquisa  é  o mesmo, a localização obtém sucesso.
+// Faz uso de: Variáveis, Objetos, Acesso de variável por variável e Console.log
+
 // Setup
 var testObj = {
   12: "Namath",
